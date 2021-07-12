@@ -1,0 +1,6 @@
+myApp:
+  component: "@sls-next/serverless-component@3.2.0-alpha.20"
+  inputs:
+    bucketName: serverless-next-bucket
+    bucketRegion: ap-northeast-1
+    name: serverless-next-func

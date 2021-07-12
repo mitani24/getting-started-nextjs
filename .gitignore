@@ -12,6 +12,10 @@
 /.next/
 /out/
 
+# serverless-next.js
+/.serverless/
+/.serverless_nextjs/
+
 # production
 /build
 
