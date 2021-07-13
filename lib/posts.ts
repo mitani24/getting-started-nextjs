@@ -36,7 +36,6 @@ export const getPostData = async (id: string) => {
 
   const processedContent = await remark().use(html).process(post.content);
   const contentHtml = processedContent.toString();
-  console.log(contentHtml);
   return {
     id,
     title: post.title,
